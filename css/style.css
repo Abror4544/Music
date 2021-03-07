@@ -405,6 +405,7 @@ header button:hover{
 
 .sector .albumImg{
   position: relative;
+  overflow: hidden;
 }
 
 .sector .albumImg img{
@@ -417,7 +418,7 @@ header button:hover{
 }
 
 .sector .albumImg img:hover{
-  transform: scaleX(1.2);
+  transform: scale(1.2);
 }
 
 .jam{
